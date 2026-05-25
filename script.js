@@ -23,7 +23,7 @@ form.addEventListener('submit', async (e) => {
     };
 
     try {
-        const response = await fetch('https://https://diabetes-prediction-bl6a.onrender.com/predict', {
+        const response = await fetch('https://diabetes-prediction-bl6a.onrender.com/predict', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
